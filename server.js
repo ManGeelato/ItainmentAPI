@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 app.use(helmet());
 
-app.get("/results", (req, res) => {
+app.get("/search", (req, res) => {
   const itunesURL = `https://itunes.apple.com/search?term=${
     req.query.term
   }&media=${req.query.media ? req.query.media : ""} `;
