@@ -1,0 +1,28 @@
+{
+  "name": "i-tainmentapi",
+  "version": "1.0.0",
+  "description": "application to execute movies and music via itunes",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Emmanuel Kaome",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "nodemon": "^2.0.16",
+    "react-bootstrap": "^2.4.0",
+    "react-icons": "^4.3.1",
+    "react-router-dom": "^6.3.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0"
+  }
+}
